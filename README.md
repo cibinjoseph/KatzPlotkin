@@ -9,7 +9,7 @@ A Makefile for use on Linux systems is also provided.
 ## Usage
 Compile the code using either the provided `Makefile` or using the command:
 ```Bash
-f77 p14.F -o p14.out
+gfortran p14.F -o p14.out
 ```
 You can then run it using 
 ```Bash
