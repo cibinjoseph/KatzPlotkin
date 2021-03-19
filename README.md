@@ -6,7 +6,7 @@ Inside each directory, the source code is named `pXX.F` and an example output is
 A Makefile for use on Linux systems is also provided.
 
 ## Usage
-Compile the code using either the provided `Makefile` or using the commands:
+Compile the code using either the provided `Makefile` or using the command:
 ```Bash
 f77 p14.F -o p14.out
 ```
