@@ -266,7 +266,7 @@ C
       WRITE(6,9)
 C 9    FORMAT( 1X,'AIRFOIL COORDINATES',/,1X,19('='),/,8X,'X Z')
  9    FORMAT( 1X,'READING AIRFOIL COORDINATES FROM FILE surface.dat')
-      OPEN(UNIT=121, FILE='surface.dat', ACTION='READ')
+      OPEN(UNIT=121, FILE='surface.dat')
       READ(121,11) IB1
       DO 10 I=1, IB1
       READ(121,*) QF(I,1,1),QF(I,1,3)
