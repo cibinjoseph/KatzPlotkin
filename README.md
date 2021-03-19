@@ -1,4 +1,5 @@
 # KatzPlotkin
+An archive of the Fortran programs provided by Joseph Katz and Allen Plotkin in their book Low-Speed Aerodynamics
 
 ## Directory structure
 Each `PXX` directory contains a program code.  
