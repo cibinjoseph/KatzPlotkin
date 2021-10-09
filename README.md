@@ -33,5 +33,5 @@ You can then run it using
 |  12  | 3D: Constant strength source/doublet element | |
 |  13  | 3D: Vortex lattice method for rectilinear lifting surfaces (with ground effect) | |
 |  14  | 3D: Constant strength sources and doublets with the Dirichlet boundary condition | :heavy_check_mark: |
-|  15  | 2D: Sudden acceleration of a flat plate at angle of attack (using a single lumped vortex element)| |
+|  15  | 2D: Sudden acceleration of a flat plate at angle of attack (using a single lumped vortex element)| :heavy_check_mark: |
 |  16  | 3D: Unsteady motion of a thin rectangular lifting surface (Upgrade of program 13) | |
