@@ -1,8 +1,12 @@
-all:
-	make p01.out
+FC = gfortran
+executables := $(patsubst %.f,%.out,$(wildcard *.f))
+requirements = 
 
-p01.out: p01.f
-	gfortran p01.f -o p01.out
+all:
+	make $(executables)
+
+%.out: %.f $(requirements)
+	$(FC) $*.f -o $*.out
 
 clean:
-	-rm *.out *.DAT
+	-rm *.out

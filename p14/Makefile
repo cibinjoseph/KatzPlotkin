@@ -1,8 +1,12 @@
-all:
-	make p14.out
+FC = gfortran
+executables := $(patsubst %.f,%.out,$(wildcard *.f))
+requirements = surface.dat
 
-p14.out: p14.f surface.dat
-	gfortran p14.f -o p14.out
+all:
+	make $(executables)
+
+%.out: %.f $(requirements)
+	$(FC) $*.f -o $*.out
 
 clean:
-	rm *.out
+	-rm *.out
