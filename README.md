@@ -1,5 +1,5 @@
 # KatzPlotkin
-An archive of the Fortran programs provided by Joseph Katz and Allen Plotkin in their book titled [Low-Speed Aerodynamics](https://doi.org/10.1017/CBO9780511810329).  
+This is an archive of the Fortran programs provided by Joseph Katz and Allen Plotkin in their book titled [Low-Speed Aerodynamics](https://doi.org/10.1017/CBO9780511810329).  
 This project is currently a work in progress.
 
 ## Directory structure
