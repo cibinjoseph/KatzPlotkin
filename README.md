@@ -1,10 +1,11 @@
 # KatzPlotkin
-An archive of the Fortran programs provided by Joseph Katz and Allen Plotkin in their book Low-Speed Aerodynamics
+An archive of the Fortran programs provided by Joseph Katz and Allen Plotkin in their book titled [Low-Speed Aerodynamics](https://doi.org/10.1017/CBO9780511810329).  
+This project is currently a work in progress.
 
 ## Directory structure
-Each `pXX` directory contains a program code.  
+Each `pXX` directory contains a program.  
 Inside each directory, the source code is named `pXX.f` and an example output is provided with the name `pXX.log`.  
-A Makefile for use on Linux systems is also provided.
+A Makefile (tested on Linux) is also provided.
 
 ## Usage
 Compile the code using either the provided `Makefile` or using the command:
