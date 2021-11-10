@@ -1,5 +1,5 @@
 # KatzPlotkin
-This is an archive of the fixed-format Fortran programs provided by Joseph Katz and Allen Plotkin in their book titled [Low-Speed Aerodynamics](https://doi.org/10.1017/CBO9780511810329).  The authors reserve all rights to the code and these programs are transcribed verbatim for ease of use solely for educational purposes.
+This is an archive of the fixed-format Fortran programs provided by Joseph Katz and Allen Plotkin in their book titled [Low-Speed Aerodynamics](https://doi.org/10.1017/CBO9780511810329).  The authors of the book reserve all rights to the code and these programs are transcribed verbatim for ease of use solely for educational purposes.
 This project is currently a work in progress.
 
 ## Directory structure
@@ -28,7 +28,7 @@ You can then run it using
 |  06  | 2D Neumann boundary condition: Linear strength source method     | |
 |  07  | 2D Neumann boundary condition: Linear strength vortex method     | |
 |  08  | 2D Dirichlet boundary condition: Constant strength doublet method        | |
-|  09  | 2D Dirichlet boundary condition: Constant strength source/doublet method | |
+|  09  | 2D Dirichlet boundary condition: Constant strength source/doublet method | :heavy_check_mark: |
 |  10  | 2D Dirichlet boundary condition: Linear strength doublet method          | |
 |  11  | 2D Dirichlet boundary condition: Quadratic strength doublet method       | |
 |  12  | 3D: Constant strength source/doublet element | |
