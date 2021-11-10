@@ -23,7 +23,7 @@ You can then run it using
 |  01  | Grid generator for van de Vooren airfoil shapes. Programs 3-11 use this as input. | :heavy_check_mark: |
 |  02  | 2D Neumann boundary condition: Discrete vortex, thin wing method | :heavy_check_mark: |
 |  03  | 2D Neumann boundary condition: Constant strength source method   | :heavy_check_mark: |
-|  04  | 2D Neumann boundary condition: Constant strength doublet method  | |
+|  04  | 2D Neumann boundary condition: Constant strength doublet method  | :heavy_check_mark: |
 |  05  | 2D Neumann boundary condition: Constant strength vortex method   | |
 |  06  | 2D Neumann boundary condition: Linear strength source method     | |
 |  07  | 2D Neumann boundary condition: Linear strength vortex method     | |
