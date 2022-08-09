@@ -3,6 +3,10 @@ all:
 	+$(MAKE) -C p02
 	+$(MAKE) -C p03
 	+$(MAKE) -C p04
+	+$(MAKE) -C p05
+	+$(MAKE) -C p06
+	+$(MAKE) -C p07
+	+$(MAKE) -C p08
 	+$(MAKE) -C p09
 	+$(MAKE) -C p12
 	+$(MAKE) -C p14
