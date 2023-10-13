@@ -18,21 +18,21 @@ You can then run it using
 
 ## List of programs
 
-| Code | Program details                                                                                   | Availability       |
-| ---- | ------------------------------------------------------------------------------------------------- | ------------------ |
-| 01   | Grid generator for van de Vooren airfoil shapes. Programs 3-11 use this as input.                 | :heavy_check_mark: |
-| 02   | 2D Neumann boundary condition: Discrete vortex, thin wing method                                  | :heavy_check_mark: |
-| 03   | 2D Neumann boundary condition: Constant strength source method                                    | :heavy_check_mark: |
-| 04   | 2D Neumann boundary condition: Constant strength doublet method                                   | :heavy_check_mark: |
-| 05   | 2D Neumann boundary condition: Constant strength vortex method                                    | :heavy_check_mark: |
-| 06   | 2D Neumann boundary condition: Linear strength source method                                      | :heavy_check_mark: |
-| 07   | 2D Neumann boundary condition: Linear strength vortex method                                      | :heavy_check_mark: |
-| 08   | 2D Dirichlet boundary condition: Constant strength doublet method                                 | :heavy_check_mark: |
-| 09   | 2D Dirichlet boundary condition: Constant strength source/doublet method                          | :heavy_check_mark: |
-| 10   | 2D Dirichlet boundary condition: Linear strength doublet method                                   | :heavy_check_mark: |
-| 11   | 2D Dirichlet boundary condition: Quadratic strength doublet method                                | :heavy_check_mark: |
-| 12   | 3D: Constant strength source/doublet element                                                      | :heavy_check_mark: |
-| 13   | 3D: Vortex lattice method for rectilinear lifting surfaces (with ground effect)                   | :heavy_check_mark: |
-| 14   | 3D: Constant strength sources and doublets with the Dirichlet boundary condition                  | :heavy_check_mark: |
-| 15   | 2D: Sudden acceleration of a flat plate at angle of attack (using a single lumped vortex element) | :heavy_check_mark: |
-| 16   | 3D: Unsteady motion of a thin rectangular lifting surface (Upgrade of program 13)                 | :heavy_check_mark: |
+| Code | Program details                                                                   | Boundary Condit.n | 2D/3D | Availability       |
+| ---- | ----------------------------------------------------------------------------------| ----------------- | ----- | ------------------ |
+| 01   | Grid generator for van de Vooren airfoil shapes. Programs 3-11 use this as input. | --                |   --  | :heavy_check_mark: |
+| 02   | Discrete vortex, thin wing method                                                 | Neumann           |   2D  | :heavy_check_mark: |
+| 03   | Constant strength source method                                                   | Neumann           |   2D  | :heavy_check_mark: |
+| 04   | Constant strength doublet method                                                  | Neumann           |   2D  | :heavy_check_mark: |
+| 05   | Constant strength vortex method                                                   | Neumann           |   2D  | :heavy_check_mark: |
+| 06   | Linear strength source method                                                     | Neumann           |   2D  | :heavy_check_mark: |
+| 07   | Linear strength vortex method                                                     | Neumann           |   2D  | :heavy_check_mark: |
+| 08   | Constant strength doublet method                                                  | Dirichlet         |   2D  | :heavy_check_mark: |
+| 09   | Constant strength source/doublet method                                           | Dirichlet         |   2D  | :heavy_check_mark: |
+| 10   | Linear strength doublet method                                                    | Dirichlet         |   2D  | :heavy_check_mark: |
+| 11   | Quadratic strength doublet method                                                 | Dirichlet         |   2D  | :heavy_check_mark: |
+| 12   | Constant strength source/doublet element                                          | --                |   3D  | :heavy_check_mark: |
+| 13   | Vortex lattice method for rectilinear lifting surfaces (with ground effect)       | --                |   3D  | :heavy_check_mark: |
+| 14   | Constant strength sources and doublets                                            | Dirichlet         |   3D  | :heavy_check_mark: |
+| 15   | Sudden acceleration of a flat plate at angle of attack (using a single lumped vortex element) | --    |   2D  | :heavy_check_mark: |
+| 16   | Unsteady motion of a thin rectangular lifting surface (Upgrade of program 13)     |                   |   3D  | :heavy_check_mark: |
